@@ -4,32 +4,33 @@ import { cn } from "@/lib/utils";
 import { CardSpotlight } from "./ui/card-spotlight";
 
 export default function AboutSection() {
-  const cards = [
-    {
-      icon: "⚡",
-      title: "What is credit pro ?",
-      description:
-        "An exclusive membership platform designed for those who value rewards. every action, every transaction, every milestone counts.",
-    },
-    {
-      icon: "👑",
-      title: "Who it's for ?",
-      description:
-        "Ambitious individuals who demand more from their finances. members who expect premium experiences and exclusive access to opportunities.",
-    },
-    {
-      icon: "🔑",
-      title: "How to join ?",
-      description:
-        "Qualification based on credit profile and financial activity. membership is by invitation or application. limited slots available each month.",
-    },
-    {
-      icon: "🎁",
-      title: "Member benefits",
-      description:
-        "Exclusive rewards on every transaction. early access to premium features. priority customer support and concierge services.",
-    },
-  ];
+const cards = [
+  {
+    icon: "💳",
+    title: "What is Credit Pro?",
+    description:
+      "A smart payment app that lets you add your credit cards, pay anywhere, and earn instant rewards on every spend.",
+  },
+  {
+    icon: "👥",
+    title: "Who is it for?",
+    description:
+      "Anyone who uses credit cards and wants extra benefits. If you love rewards and smoother payments, you're in the right place.",
+  },
+  {
+    icon: "🪄",
+    title: "How to get started?",
+    description:
+      "Simply add your credit card in the app, verify it securely, and start paying through Credit Pro. No waiting, no hassle.",
+  },
+  {
+    icon: "🎉",
+    title: "Why you’ll love it",
+    description:
+      "Earn rewards on every payment, track your spends, and enjoy exclusive perks — all from one clean, effortless app.",
+  },
+];
+
 
   return (
     <section className="relative w-full py-24 lg:py-32 px-4 bg-background">
